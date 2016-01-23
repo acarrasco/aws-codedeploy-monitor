@@ -1,0 +1,29 @@
+{
+  "name": "aws-codedeploy-monitor",
+  "version": "0.0.1",
+  "description": "A script to watch a deployment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acarrasco/aws-codedeploy-monitor.git"
+  },
+  "keywords": [
+    "aws",
+    "code-deploy",
+    "watcher",
+    "monitor"
+  ],
+  "author": "alejandro.carrasco@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/acarrasco/aws-codedeploy-monitor/issues"
+  },
+  "homepage": "https://github.com/acarrasco/aws-codedeploy-monitor#readme",
+  "dependencies": {
+    "aws-sdk": "^2.2.32",
+    "minimist": "^1.2.0"
+  }
+}
