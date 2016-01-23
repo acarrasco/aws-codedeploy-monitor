@@ -38,8 +38,7 @@ function watch(deploymentId) {
 				exit(-1);
 			}
 
-			console.log(data.deploymentInfo.deploymentOverview);
-			console.log(data.deploymentInfo.status);
+			console.log(data.deploymentInfo.deploymentOverview || data.deploymentInfo.status);
 			switch (data.deploymentInfo.status) {
 				case 'Succeeded':
 					exit(0);
